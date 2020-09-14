@@ -21,3 +21,8 @@ def registrarUsuario(request):
     else:
         form = UserCreationForm()
         return render(request, 'registration/register.html', {'form':form})
+
+
+def alertar(request):
+    return render(request,'alertar.html')
+    
