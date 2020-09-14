@@ -22,5 +22,6 @@ urlpatterns = [
     path('',views.index, name='index'),
     path('', include('django.contrib.auth.urls')),
     path('registrarse/', views.registrarUsuario, name ="register"),
-    path('alertar/', views.alertar, name='alertar')
+    path('alertar/', views.alertar, name='alertar'),
+    path('home/',views.home, name = 'home')
 ]

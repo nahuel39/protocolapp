@@ -25,4 +25,10 @@ def registrarUsuario(request):
 
 def alertar(request):
     return render(request,'alertar.html')
+
+
+def home(request):
+    return render(request, 'home.html')
+
+    
     
