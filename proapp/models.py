@@ -7,10 +7,11 @@ class Negocio(models.Model):
 	direccion = models.CharField(max_length=25)
 	nombre_local= models.CharField(max_length=20)
 	nom_responsable = models.CharField(max_length=20)
-
+	
 
 class Visitas (models.Model): 
     celular = models.IntegerField(max_length=15)
+
 
 class Positivo(models.Model):
 	fecha_test=models.DateTimeField(auto_now=True)
